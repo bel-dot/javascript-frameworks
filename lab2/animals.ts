@@ -70,6 +70,6 @@ const eagle = new Bird('Amerima', 3);
 eagle.makeSound();
 eagle.move();
 
-const killerFish = new Fish('Killer fish', 1);
+const killerFish = new Fish('Killer fish', 0.3);
 killerFish.makeSound();
 killerFish.move();
