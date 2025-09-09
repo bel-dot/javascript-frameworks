@@ -30,7 +30,7 @@ class Bird implements Animal {
     name: string;
     age: number;
 
-    constructor(name: string, age: number, breed?: string) {
+    constructor(name: string, age: number) {
         this.name = name;
         this.age = age;
     };
@@ -48,7 +48,7 @@ class Fish implements Animal {
     name: string;
     age: number;
 
-    constructor(name: string, age: number, breed?: string) {
+    constructor(name: string, age: number) {
         this.name = name;
         this.age = age;
     };

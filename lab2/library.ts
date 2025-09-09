@@ -32,7 +32,7 @@ class Book implements LibraryItem {
 class Magazine implements LibraryItem {
     name: string;
     author: string;
-    release: number
+    release: number;
     borrowed: boolean = false;
     
     constructor(name: string, author: string, release: number) {
@@ -56,7 +56,7 @@ class Magazine implements LibraryItem {
 class DVD implements LibraryItem {
     name: string;
     author: string;
-    duration: number
+    duration: number;
     borrowed: boolean = false;
     
     constructor(name: string, author: string, duration: number) {
@@ -103,7 +103,7 @@ const library = new Library();
 
 library.addItem(new Book('Дім листя', 'Марк Данилевський', 405))
 library.addItem(new Magazine('Пригоди Спанчбоба', 'Nikelodeon', 228))
-library.addItem(new Book('Кораліна у світі кошмарів', 'Генрі Селік', 100))
+library.addItem(new DVD('Кораліна у світі кошмарів', 'Генрі Селік', 100))
 
 console.log(library.findItemByName('Дім листя')?.about());
 

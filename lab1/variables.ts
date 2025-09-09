@@ -7,7 +7,7 @@ let gay: boolean = true;
 console.log(fullName, salary, gay);
 
 const names: string[] = ['Bill', 'Alex', 'Sophie'];
-const epicNumbers: number[] = [1, 3, 5];
+const epicNumbers: number[] = [1, 3, 5, "string"];
 
 type cool = {
     id: number,

@@ -48,9 +48,9 @@ class CourseManager {
     }
     
     findCourse(courseName: string): Course | undefined {
-        this.courses.forEach(course => {
+        for(let course of this.courses) {
             if(course.name === courseName) return course;
-        });
+        }
         return undefined;
     }
     
